@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>http://www.domainname.com/index.html</loc>
+    <lastmod>2012-07-28</lastmod>
+    <changefreq>Daily</changefreq>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.domainname.com/customerservices.html</loc>
+    <lastmod>2012-07-28</lastmod>
+    <changefreq>Monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.domainname.com/aboutus.html</loc>
+    <lastmod>2012-07-28</lastmod>
+    <changefreq>Monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://www.domainname.com/imggallery.html</loc>
+    <lastmod>2012-07-28</lastmod>
+    <changefreq>Monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>http://www.domainname.com/contactus.html</loc>
+    <lastmod>2012-07-28</lastmod>
+    <changefreq>Monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
+<!-- This document saved from http://domainname.com:2222/CMD_FILE_MANAGER/domains/domainname.com/public_html/GSiteMap.xml -->

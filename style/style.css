@@ -1,0 +1,394 @@
+﻿
+
+@font-face {
+  font-family: 'eIranNastaliq';
+  src: url('../fonts/IranNastaliq.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'eBYekan';
+  src: url('../fonts/BYekan.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/BYekan.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BYekan.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+@font-face {
+  font-family: 'eBKoodakBold';
+  src: url('../fonts/BKoodakBold.eot?#') format('eot'),  /* IE6–8 */
+       url('../fonts/BKoodakBold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+       url('../fonts/BKoodakBold.ttf') format('truetype');  /* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+}
+
+* {margin:0; padding: 0; text-align: right; font-family: Tahoma; border:0;}
+ul { list-style: none;  }
+
+
+
+body 
+{   direction: rtl; 
+	font:62.5%/1.6 Tahoma, Times, Times New Roman, serif;	
+	background-image: url('../images/header-pattern.gif');
+	text-align:center;
+}
+
+#newyear 
+{
+    position: absolute;
+    left: 0;
+    width:1000px;
+    direction:ltr;
+    text-align: left;
+}
+#newyear  img 
+{
+    overflow: visible;
+}
+#top, #bottom, #left, #right 
+{
+    opacity: .4;
+}
+#left, #right 
+{
+	position: fixed;
+	top: 0; 
+	bottom: 0;
+	width: 88px;
+}
+#left  
+{
+    left: 0;       
+    background: url(../images/left.png) left center repeat-y;
+}
+#right 
+{ 
+    right: 0; 
+    background: url(../images/right.png) right center repeat-y;
+}
+		
+#top, #bottom 
+{
+	position: fixed;
+	left: 0; 
+	right: 0;
+	height: 88px;
+}
+#top 
+{ 
+    top: 0px; 
+    background: url(../images/top.png) top center repeat-x; 
+}
+#bottom 
+{ 
+    bottom: 0px; 
+    background: url(../images/bottom.png) bottom center repeat-x; 
+}
+
+#wrapper {    
+    width: 901px;
+    margin: 0px auto 35px auto;  
+    /* گرد كردن گوشه هاي پايين */
+    border-radius: 0px 0px 25px 25px;
+    border: 1px solid #000;
+    -moz-box-shadow: 2px 0px 10px #000, -2px 0px 10px #000, 0 10px 15px #000;
+    background: rgb(18,18,18);
+}
+#notification 
+{
+    background: rgb(253, 224, 115);
+    text-align: center;
+	display: none;
+	line-height: 25px;
+}
+
+#notification img 
+{
+    float: right;
+}
+
+#header 
+{
+    height: 200px; 
+}
+#header img 
+{ 
+    width: 100%;
+}
+#slider
+{
+    height: 350px;    
+}
+#brandsmark 
+{
+    height: 43px;
+    background: rgb(18,18,18);
+}
+#brandsmark img 
+{
+    width: 100%; 
+}
+
+#nav
+{
+    height: 43px;    
+}
+#content
+{   
+    background: rgb(18, 18, 18);
+    width: 100%;
+    
+}
+#content_sidebar , #content_body
+{
+    vertical-align: top;
+    padding-top: 15px;    
+}
+
+#content_sidebar 
+{
+    width:20%;
+    border-left: 2px solid rgb(85, 120, 2);
+}
+
+
+/* فهرست كالاها و ليست قيمت و نظرسنجي */
+.sidebar_box
+{
+    padding: 5px 0px 25px 10px;
+	margin: 0px auto 20px auto;
+	width: 193px;
+	
+	/* گرد كردن گوشه ها */
+    
+    -webkit-border-radius: 20px;
+    -moz-border-radius:    20px;
+    -ms-border-radius:     20px;
+    -o-border-radius:      20px;
+    border-radius:         20px;
+
+}
+.sidebar_box_title
+{
+	font-family: eBYekan, Tahoma;
+    font-size: 1.6em;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    background: rgb(85,120,2);
+    color: #fff;
+}
+
+.sidebar_box span
+{
+    font-family: eBYekan, Tahoma;
+    color: rgb(250,250,250);
+}
+
+.sidebar_box ul
+{
+	margin-right: 10px;
+}
+.sidebar_box ul li
+{	
+	padding: 0px 20px 10px 0px;
+    margin-bottom: 2px;
+    height: 15px;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+        
+}
+
+.sidebar_box li a
+{
+	color: rgb(230, 174, 36);
+    font-family: Tahoma, eBYekan;
+    font-size: 1.3em;    
+}
+
+.sidebar_box li:hover a, .sidebar_box li.hover a
+{     
+    font-weight: bold;
+    color: rgb(85, 120, 2);
+}
+
+/* گفتگو با ما */
+#chat{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#content_body
+{
+    padding-right: 10px;
+}
+
+#content_body .content_body_box
+{
+    min-height: 200px;
+    font-size: 1.2em;
+    padding: 0px 10px 20px 10px;    
+    text-align: right;
+    color:#c0c0c0;    
+}
+.content_body_box_title
+{
+    height: 38px;
+    font-family: eBKoodakBold, Tahoma, Sans-Serif;
+    font-weight: 100;
+    font-size: 1.4em;
+    color: #79AA09;
+    /*border-bottom: 2px solid rgb(0,0,0);*/
+    margin-bottom: 35px;    
+}
+.khm img
+{
+    width: 100%;
+}
+
+#content_body span
+{
+    font-family: eIranNastaliq, IranNastaliq, eBKoodakBold, Tahoma, Sans-Serif;
+    font-size: 2em;
+    color: rgb(0,0,0);
+    color:#fff;
+}
+
+#contactus table
+{
+    margin: 0 auto;
+}
+#contactus table
+{
+    border-collapse: separate;
+}
+#contactus tr:nth-of-type(odd)
+{
+    background: rgb(54, 52, 53);    
+}
+#contactus tr td:first-child
+{
+    width: 25%;    
+}
+
+#contactus img
+{    
+    width: 90%;
+    border: 1px solid;
+    box-shadow: -2px 2px rgb(196, 196, 196);    
+}
+#warranty ol,
+#ghest ol
+{
+    list-style: decimal;
+    margin: 20px 40px;
+}
+
+#imggallery div.shadow
+{
+    display: inline;
+    padding: 0 5px 5px 0;
+}
+
+#imggallery img
+{
+    position: relative;
+    top: -2px;
+    left: -2px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-color: #ccc #777 #777 #ccc;
+    padding: 8px;
+}
+
+#footer
+{
+    height: 43px;
+    border-top: 2px solid rgb(85, 120, 2);    
+    /* گرد كردن گوشه هاي پايين */
+    border-radius: 0px 0px 25px 25px;
+    background: rgb(18, 18, 18);
+}
+
+#footer ul
+{
+	list-style: none;	
+	text-align:center;
+	margin-top: 5px;
+}
+
+#footer li{
+	display: inline;
+	margin-left: 15px;
+}
+
+#footer a{
+	color: rgb(85, 120, 2);
+	font-size: 1.1em;	
+}
+
+#footer a:hover{	
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+#tooltip
+{    
+    color: #fff;
+    position:absolute;
+    border:0;
+    border-top:3px solid rgb(85, 120, 2);
+    border-bottom:3px solid rgb(85, 120, 2);
+    background:rgb(78, 78, 78);
+    padding:2px 15px;    
+    display:none;
+    font: 11px Tahoma;
+}
+
+div#my 
+{
+    border:1px solid;
+    border-radius: 25px 25px 0 0;    
+    background: rgb(18, 18, 18);
+    width: 901px;
+    margin: 0px auto 0px auto;    
+    border-bottom: 5px solid #557802;  
+}
+
+p#parsaee 
+{
+    text-align: center;
+    direction: rtl;
+    color: #fff;
+}
+div#my a {  
+   position:relative;  
+   z-index:20;
+   font-size: 1.2em; 
+   text-decoration: none; 
+   color: rgb(255, 194, 41); 
+   
+}  
+div#my a:hover {  
+    display:inline;  
+    z-index:30;  
+    text-decoration: underline;
+    color:rgb(118, 166, 0);
+} 
+div#my a span {  
+    display:none;  
+    
+}
+div#my a:hover span {  
+    display:block;  
+    position:absolute;  
+    top:-7em;  
+    left:-10em;  
+    width:128px;  
+    height:128px;  
+    opacity: .8;
+}
+
+div#my a:hover span:hover {opacity: 1;}
+

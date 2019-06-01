@@ -1,0 +1,6 @@
+﻿body  { text-align: center; }
+#notification {display: block;}
+#left , #right {display: none;}
+
+div#my {background: rgb(78, 78, 78);}
+div#nav{background: rgb(130, 159, 178);}
